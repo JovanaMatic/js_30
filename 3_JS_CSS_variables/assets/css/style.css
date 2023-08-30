@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(42, 54, 121);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.sliders {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sliders p {
+    font-size: 25px;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    ;
+}
+
+.hero-image {
+    text-align: center;
+    padding: 30px;
+    background-color: #D3BE31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+
+
+span {
+    color: #D3BE31
+}
+
+input[type="color"] {
+    margin-top: 25px;
+}
