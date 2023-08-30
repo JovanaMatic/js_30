@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   background-color: rgba(194, 192, 192, 0.9);
+}
+
+.main {
+    height: 700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hours {
+    position: absolute;
+    height: 200px;
+    width: 3%;
+    background-color: rgb(88, 82, 82);
+    bottom: calc(50% - 1px);
+    transform-origin:bottom center;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.minutes {
+    position: absolute;
+    height: 280px;
+    width: 2%;
+    background-color: rgb(88, 82, 82);
+    transform-origin: bottom center;
+    bottom: calc(50% - 1px);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.seconds {
+    position: absolute;
+    height: 250px;
+    width: 2%;
+    background-color: rgb(215, 51, 128);
+    margin-top: 10px;
+    bottom: calc(50% - 1px);
+    transform-origin: bottom center;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.clock-numbers {
+    position: absolute;  
+    width: 600px;
+    height: 600px;
+    font-family: 'Roboto', sans-serif;
+}
+.numbers {
+    --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+    font-size: 20px;  
+}
+
+.numbers:nth-child(1) {
+    --rotation: 30deg;
+}
+
+.numbers:nth-child(2) {
+    --rotation: 60deg;
+    font-size: 30px;
+}
+
+.numbers:nth-child(3) {
+    --rotation: 90deg;
+}
+
+.numbers:nth-child(4) {
+    --rotation: 120deg;
+    font-size: 50px;
+}
+
+.numbers:nth-child(5) {
+    --rotation: 150deg;
+}
+.numbers:nth-child(6) {
+    --rotation: 180deg;
+    font-size: 30px;
+}
+.numbers:nth-child(7) {
+    --rotation: 210deg;
+}
+.numbers:nth-child(8) {
+    --rotation: 240deg;
+    font-size: 50px;
+}
+.numbers:nth-child(9) {
+    --rotation: 270deg;
+}
+.numbers:nth-child(10) {
+    --rotation: 300deg;
+    font-size: 70px;
+}
+.numbers:nth-child(11) {
+    --rotation: 330deg;
+}
+
+
+
