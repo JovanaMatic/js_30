@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.box:hover {
+    background-color: rgba(231, 229, 229, 0.73);
+}
+
+.card {
+    display: none;
+}
+
+.highlight {
+    background: rgb(255, 208, 0);
+}
+
+.city-str {
+    font-size: 20px;
+}
+
+.error-message {
+    font-size: 20px;  
+}
+
