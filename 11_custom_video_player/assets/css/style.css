@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+.player {
+    position: relative;
+}
+
+.custom_controls {
+    position: absolute;
+    bottom: -25px;
+    height: 20px;
+    width: 800px;
+    height: 60px;
+    background-color: rgba(57, 56, 56, 0.839);
+    text-align: center;
+}
+
+.progress_bar {
+    position: absolute;
+    border:1px solid #ccc;
+    background-color: rgba(79, 78, 78, 0.691);
+    width: 100%;
+}
+
+.progress {
+    height: 10px;
+    width: 0px;
+    background-color: rgb(235, 203, 44);
+}
+
+.btn_play, .btn_pause, i {
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    background: none;
+    margin-top: 10px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    accent-color: rgb(235, 203, 44);
+    background: rgba(255, 255, 255, 0.6);
+    height: 10px;
+    width: 35%;
+}
+
+.btn_for, .btn_back, .btn_full {
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: none;
+}
+
+.full_width {
+    width: 1792px; 
+}
+.full_height {
+    height: 1021px;
+}
+.bottom_class {
+    bottom: -45px;
+}
+    
+
+
