@@ -1,0 +1,43 @@
+ *, *::after, *::before {
+     box-sizing: inherit;
+ }
+
+html {box-sizing: border-box;}
+
+body {
+    background: rgb(255, 217, 0);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+}
+
+.main {
+    max-width: 700px;
+    margin: 100px auto;
+    background: white;
+    padding: 40px;
+    text-align: justify;
+}
+
+.align-right {
+    float: right;
+    margin-left:20px;
+    transform: translateX(-30%);
+}
+
+.align-left {
+    float: left;
+    margin-right: 20px;
+    transform: translateX(-30%);
+  }
+
+  .slide-in {
+      opacity: 0;
+      transition: all 500ms;
+  }
+
+  .slide-in.active {
+    opacity: 1;
+    transform: translateX(0%);  
+  }
