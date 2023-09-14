@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(rgb(57, 157, 191), rgb(222, 94, 216));
+}
+
+span {
+    color: yellow;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    transform: rotate(-10deg);
+    text-shadow: 10px 10px black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.container {
+    min-width: 400px;
+    min-height: 400px;
+}
+
