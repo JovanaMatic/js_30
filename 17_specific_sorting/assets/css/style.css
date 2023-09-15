@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/Users/vast/Desktop/JS302/17_specific_sorting/assets/img/space.jpeg');
+    background-color: #cccccc;
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-width: 400px;
+    min-height: 600px;
+    background: #fff;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+}
