@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 217, 0);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.contaner {
+    background: #fff;
+    width: 400px;
+    min-height: 600px;
+    box-shadow: 10px 10px #8888889a;
+    padding: 10px;
+}
