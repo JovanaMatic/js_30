@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/Users/vast/Desktop/JS302/23_text_recognition/assets/img/pattern2.jpeg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.container {
+    background: #fff;
+    width: 600px;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+}
+
+h1 {
+    background: rgb(255, 213, 0);
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+button {
+    background: rgb(255, 213, 0);
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+}
+
+label, input, select, textarea, button {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+select, textarea {
+    border: none;
+    background: rgba(237, 235, 235, 0.735);
+    padding: 10px;
+}
