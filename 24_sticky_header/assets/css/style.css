@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('/Users/vast/Desktop/JS302/24_sticky_header/assets/img/nature.jpeg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+header h1 {
+    color: white;
+    font-size: 60px;
+    padding: 120px 30px;
+    margin: 0;
+}
+
+.main {
+    height: 100%;
+    background-color: rgb(224, 221, 221);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    background-color: #fff;
+    margin: 60px;
+    padding: 30px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 20px 40px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.active {
+    color: black;
+    background-color: white;
+}
+
+.show-hide {
+    transition: 0.5s;
+    transform: translateX(-150px);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
