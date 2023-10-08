@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.one {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(216, 55, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(55, 178, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(55, 216, 93);
+}
