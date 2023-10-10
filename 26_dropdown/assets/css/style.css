@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(44, 168, 202)), to(#ca70cd)) fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    position: relative;
+    perspective: 600px;
+  }
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    margin: 30px;
+    padding: 10px;
+    font-weight:800;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.main-links {
+    background-color: rgba(39, 39, 39, 0.314);  
+    border-radius: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.otherLinks {
+    color: black;
+}
+
+.dropdown-content {
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+    transition: all 0.5s;
+    transform: translateY(100px);
+    display: none;
+    padding: 10px;
+    top: -20px;
+}
+
+
+.trigger-enter .dropdown-content {
+    display: block;
+  }
+
+  /* put opacity after 300ms o show animation effect */
+  .trigger-enter-active .dropdown-content {
+    opacity: 1;
+  }
+
+  .dropBac {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
+    transition: all 0.3s, opacity 0.1s, transform 0.2s;
+    transform-origin: 50% 0;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+  }
+
+  .dropBac.open {
+    opacity: 1;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: white;
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+ 
