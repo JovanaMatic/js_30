@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/28_video_speed_controller/assets/img/28_background.jpeg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.main {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.speed-controler {
+  position: relative;
+  width: 70px;
+  border-radius: 30px;
+  background-color: #fff;
+  margin-left: 100px;
+  color: white;
+  text-align: center;
+}
+
+.color-controler {
+  position: absolute;
+  width: 70px;
+  border-radius: 30px;
+  background:linear-gradient(rgb(67, 132, 211), rgb(196, 77, 180));
+  height: 20%;
+  bottom: 0;
+  top: 0;
+}
