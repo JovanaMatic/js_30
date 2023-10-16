@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(44, 126, 202)), to(#40c3d8)) fixed;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(29, 113, 198);
+  border-bottom: 1px solid rgb(18, 66, 114);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  color: white;
+  text-transform: uppercase;
+  border-right: 1px solid rgb(18, 66, 114);
+  cursor: pointer;
+}
+
+ul li, input {
+  display: inline-block;
+  padding: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.counter {
+  color: white;
+  font-size: 150px;
+}
+
+.myParaf {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
